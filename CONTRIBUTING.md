@@ -1,5 +1,8 @@
 # Contributing
 
+1. `pnpm install`
+1. `pnpm dev`
+
 ## [Examples](./examples/)
 
 ### Next
@@ -9,6 +12,10 @@ This Next.js app is using the [`app/` beta](https://beta.nextjs.org/docs/getting
 1. `pnpm --filter next run dev`
 
 ## [Packages](./packages/)
+
+## [Chrome Extension](./packages/browser/)
+
+1. See [Loading the extension](https://docs.plasmo.com/workflows#loading-the-extension)
 
 ### [VS Code Extension](./packages/vscode/)
 

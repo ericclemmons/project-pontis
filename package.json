@@ -3,6 +3,7 @@
   "name": "project-pontis",
   "version": "1.0.0",
   "scripts": {
-    "dev": "pnpm --filter next run dev"
+    "prepare": "pnpm --filter \"./packages/**\" run build",
+    "dev": "pnpm --if-present --recursive --stream run dev"
   }
 }
